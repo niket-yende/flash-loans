@@ -1,0 +1,32 @@
+{
+  "name": "flash-loans",
+  "version": "1.0.0",
+  "description": "Sample app to demonstrate flash loan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niket-yende/flash-loans.git"
+  },
+  "keywords": [
+    "solidity",
+    "blockchain",
+    "defi",
+    "flashloan"
+  ],
+  "author": "Niket Yende (niket6@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niket-yende/flash-loans/issues"
+  },
+  "homepage": "https://github.com/niket-yende/flash-loans#readme",
+  "devDependencies": {
+    "@aave/core-v3": "^1.18.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.18.0"
+  }
+}
